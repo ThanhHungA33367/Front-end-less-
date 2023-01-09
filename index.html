@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css
+
+
+
+    "
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css
+
+      "
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js
+
+  "
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js
+
+  "
+    ></script>
+  </head>
+
+  <body>
+    <!-- <img src="image/banner_01.gif " alt="" class="bg-img" /> -->
+    <div class="banner">
+      <!-- <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse  d-flex ps-5 align-items-center" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Pages</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link " href="#">Classes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Contacts</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            
+          </form>
+        </div>
+      </nav> -->
+      <nav class="navbar navbar-expand-xxl  ">
+        <div class="container-fluid nav-width  ">
+          <img src="image/logo4.png" class="nav-logo" alt="" />
+          <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="abc">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse margin-nav  " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item nav-li-1">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item nav-li-2">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="nav-item nav-li-3">
+                <a class="nav-link" href="#">Classes</a>
+              </li>
+              <li class="nav-item nav-li-4">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item nav-li-5">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item nav-li-6">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+              
+             
+            </ul>
+           
+          </div>
+          <div class="d-flex align-items-center combo-icon">
+            <div class="icon-searching">
+              <a href="" class="px-4 border-end">
+                <i class="fa-solid fa-magnifying-glass icon"></i>
+              </a>
+            </div>
+            <div class="icon-cart">
+              <a href="" class="px-3">
+                <i class="fa-sharp fa-solid fa-basket-shopping icon"></i
+              ></a>
+            </div>
+            <div class="icon-user">
+              <a href="" class="px-4 border-start">
+                <i class="fa-solid fa-user icon"></i
+              ></a>
+            </div>
+          </div>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Classes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacts</a>
+                </li>
+                
+              </ul>
+              
+            </div>
+           
+        </div>
+        </div>
+      </nav>
+      <!-- <nav class="navbar navbar-expand-sm navbar-light bg-light ">
+        <div class="container-fluid">
+          <div class="nav-bar d-flex justify-content-center">
+            <div class="div-nav d-flex">
+              <div class="img-logo">
+                <img src="image/logo4.png" alt="" />
+              </div>
+              <div
+                class="collapse navbar-collapse col-lg-8 col-md-9 col-sm-9 menu-info d-flex ps-5 align-items-center"
+              >
+                <div class="div-menu-home nav-item">
+                  <a class="menu-home">Home</a>
+                </div>
+                <div class="div-menu-page nav-item">
+                  <a class="menu-page">Pages</a>
+                </div>
+                <div class="div-menu-class nav-item">
+                  <a class="menu-class">Classes</a>
+                </div>
+                <div class="div-menu-portfolio nav-item">
+                  <a class="menu-portfolio">Portfolio</a>
+                </div>
+                <div class="div-menu-blog nav-item">
+                  <a class="menu-blog">Blog</a>
+                </div>
+                <div class="div-menu-contact nav-item">
+                  <a class="menu-contact">Contacts</a>
+                </div>
+              </div>
+              <div class="d-flex align-items-center combo-icon">
+                <div class="icon-searching">
+                  <a href="" class="px-4 border-end">
+                    <i class="fa-solid fa-magnifying-glass icon"></i>
+                  </a>
+                </div>
+                <div class="icon-cart">
+                  <a href="" class="px-3">
+                    <i class="fa-sharp fa-solid fa-basket-shopping icon"></i
+                  ></a>
+                </div>
+                <div class="icon-user">
+                  <a href="" class="px-4 border-start">
+                    <i class="fa-solid fa-user icon"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav> -->
+      <div class="container d-flex">
+        <div class="d-flex girly">
+          <div>
+            <p class="dumbblell">Dumbbells Shop</p>
+            <p class="best_body">Best body fitness</p>
+            <p class="text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry <br />
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the
+            
+            <br />
+            <div class="edit-text">
+              <p class="text">1500s. when an unknown printer</p>
+            </div>
+          </p>
+
+            <div class="edit-button">
+              <a href="#" class="button">Shop now</a>
+            </div>
+          </div>
+          <div class="image-girl">
+            <img src="image/girly.png" alt="" class="pt-5" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bgimg col-lg-12 col-md-12"></div>
+
+    <div class="mx-auto gallery">
+      <div class="d-flex flex-wrap justify-content-center image_ad">
+        <div class="fix-pic1"><img src="image/anh1.gif" alt="" class="image-down" /></div>
+        <div class="text-image bg-white">
+          <img src="image/icon1.gif" alt="" class="gridicon1" />
+          <p class="pt-2 fix-font-1">STRENGTH</p>
+          <p class="text-center text-fix">
+            Lorem ipsum is simply dummy text of the <br />
+            printing and typesetting industry
+          </p>
+        </div>
+       
+        <div class="fix-pic2">
+          <img src="image/anh2.gif" alt="" class="image-down" />
+        </div>
+        <div class="line-break"></div>
+
+        <div class="text-image bg-white">
+          <img src="image/icon2.gif" alt="" class="gridicon2" />
+          <p class="pt-2 fix-font-2">DUMBBELLS</p>
+          <p class="text-center text-fix2">
+            Lorem ipsum is simply dummy text of the <br />
+            printing and typesetting industry
+          </p>
+        </div>
+        <div class="fix-pic3">
+          <img src="image/anh3.gif" alt="" class="image-down"/>
+        </div>
+        <div class="text-image bg-white">
+          <img src="image/icon3.gif" alt="" class="gridicon3" />
+          <p class="pt-2 fix-font-3">POWER RACK & CAGES</p>
+          <p class="text-center text-fix3">
+            Lorem ipsum is simply dummy text of the <br />
+            printing and typesetting industry
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container padding-pixel">
+      <div class="pt-5 ps-2 d-flex border-bottom tag">
+        <a href="#" class="active">TOP SELLERS</a>
+
+        <a href="#" class="active ms-5">FEATURED</a>
+        <a href="#" class="active ms-5">MOST REVIEWES</a>
+      </div>
+    </div>
+
+    <div
+      class="container pt-5 d-flex flex-wrap justify-content-between product-tive1"
+    >
+      <div class="col-xl-3 product d-flex col-lg-4">
+        <div class="col-lg-9">
+          <img src="image/product1.gif" alt="" />
+          <div class="ps-5 text-product">
+            <p>Body Champ Cardio</p>
+            <p class="money">$342.00</p>
+          </div>
+        </div>
+        <div class="col-lg-3 product-menu pt-3">
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-cart-shopping fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-eye fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-heart fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-arrow-right-arrow-left fa-lg"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-xl-3 product d-flex col-lg-4">
+        <div class="col-lg-9">
+          <img src="image/product2.gif" alt="" />
+          <div class="ps-5 text-product">
+            <p>Body Solid GCEC340</p>
+            <p class="money">$214.00</p>
+          </div>
+        </div>
+        <div class="col-lg-3 product-menu pt-3">
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-cart-shopping fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-eye fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-heart fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-arrow-right-arrow-left fa-lg"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-xl-3 product d-flex col-lg-4">
+        <div class="col-lg-9">
+          <img src="image/product3.gif" alt="" />
+          <div class="ps-5 text-product">
+            <p>Bowflex BXE116</p>
+            <p class="money">$421.00</p>
+          </div>
+        </div>
+        <div class="col-lg-3 product-menu pt-3">
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-cart-shopping fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-eye fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-heart fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-arrow-right-arrow-left fa-lg"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-xl-3 product d-flex col-lg-4">
+        <div class="col-lg-10">
+          <img src="image/product4.gif" alt="" />
+          <div class="ps-5 text-product">
+            <p>ETHOS GHD</p>
+            <p class="money">$152.00</p>
+          </div>
+        </div>
+        <div class="col-lg-2 product-menu pt-3">
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-cart-shopping fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-eye fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-heart fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-arrow-right-arrow-left fa-lg"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-xl-3 product d-flex col-lg-4">
+        <div class="col-lg-9 padding-pixel">
+          <img src="image/product5.gif" alt="" />
+          <div class="ps-5 text-product">
+            <p>AFG PRO 7.2AI Incline</p>
+            <p class="money">$252.00</p>
+          </div>
+        </div>
+        <div class="col-xl-3 product-menu pt-3">
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-cart-shopping fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-eye fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-heart fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-arrow-right-arrow-left fa-lg"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-xl-3 product d-flex col-lg-4">
+        <div class="col-lg-9 padding-pixel">
+          <img src="image/product6.gif" alt="" />
+          <div class="ps-5 text-product">
+            <p>Weight Bench</p>
+            <p class="money">$412.00</p>
+          </div>
+        </div>
+        <div class="col-xl-3 product-menu pt-3">
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-cart-shopping fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-eye fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-heart fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-arrow-right-arrow-left fa-lg"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-xl-3 product d-flex col-lg-4">
+        <div class="col-lg-9 padding-pixel">
+          <img src="image/product7.gif" alt="" />
+          <div class="ps-5 text-product">
+            <p>ProForm Hiit Trainer Lite 5.9</p>
+            <p class="money">$300.00</p>
+          </div>
+        </div>
+        <div class="col-lg-3 product-menu pt-3">
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-cart-shopping fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-eye fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-heart fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-arrow-right-arrow-left fa-lg"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-xl-3 product d-flex col-lg-8">
+        <div class="col-xl-9 col-lg-5 padding-pixel">
+          <img src="image/product8.gif" alt="" />
+          <div class="ps-5 text-product">
+            <p>Fitness Gear Pro</p>
+            <p class="money">$124.00</p>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-5 product-menu pt-3">
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-cart-shopping fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-eye fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-heart fa-lg"></i>
+          </a>
+          <a class="icon_click p-2 rounded">
+            <i class="fa-solid fa-arrow-right-arrow-left fa-lg"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container pt-5 slider123 ">
+      <div class="">
+        <div class="text-center padding-pixel">
+          <p class="text-introduce">See What They Said About Us</p>
+        </div>
+        <div class="d-flex justify-content-center pt-4">
+          <img src="image/girl.gif" alt="" />
+        </div>
+        <div class="text-center pt-3 ">
+          <p class="text-introduct-1 padding-pixel1">
+            "Good services. I bought a bicycle with a wrong but they accepted
+            free return for me <br />
+            and exchange a new product for me"
+          </p>
+          <p class="text-introduct-2 pt-3">LINA</p>
+          <p class="text-introduct-3">Happy clients</p>
+        </div>
+      </div>
+      <div>
+        <div class="text-center padding-pixel">
+          <p class="text-introduce">See What They Said About Us</p>
+        </div>
+        <div class="d-flex justify-content-center pt-4">
+          <img src="image/girl.gif" alt="" />
+        </div>
+        <div class="text-center pt-3">
+          <p class="text-introduct-1">
+            "Good services. I bought a bicycle with a wrong but they accepted
+            free return for me <br />
+            and exchange a new product for me"
+          </p>
+          <p class="text-introduct-2 pt-3">LINA</p>
+          <p class="text-introduct-3">Happy clients</p>
+        </div>
+      </div>
+      <div>
+        <div class="text-center padding-pixel">
+          <p class="text-introduce">See What They Said About Us</p>
+        </div>
+        <div class="d-flex justify-content-center pt-4">
+          <img src="image/girl.gif" alt="" />
+        </div>
+        <div class="text-center pt-3">
+          <p class="text-introduct-1">
+            "Good services. I bought a bicycle with a wrong but they accepted
+            free return for me <br />
+            and exchange a new product for me"
+          </p>
+          <p class="text-introduct-2 pt-3">LINA</p>
+          <p class="text-introduct-3">Happy clients</p>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-5 ">
+      <hr />
+      <div class="container brand d-flex">
+        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6">
+          <img src="image/brand1.gif" alt="" />
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6">
+          <img src="image/brand2.gif" alt="" class="brand-img" />
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6">
+          <img src="image/brand3.gif" alt="" />
+        </div>
+        <div class="col-xl-2 pt-3 col-lg-4 col-md-6 col-sm-6">
+          <img src="image/brand4.gif " alt="" class="brand-img"/>
+        </div>
+        <div class="col-xl-2 pt-3 col-lg-4 col-md-6 col-sm-6">
+          <img src="image/brand5.gif" alt=""  />
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6">
+          <img src="image/brand6.gif" alt="" class="brand-img" />
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-dark mt-5 pb-5 padding-pixel2">
+      <div class="container">
+        <div class="d-flex justify-content-center pt-5">
+          <img src="image/logo4.png" alt="" />
+        </div>
+        <div class="text-color pt-5">
+          <p class="text-center mb-0">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the <br />
+            industry's standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type
+          </p>
+        </div>
+        <div class="d-flex justify-content-center pt-5 icon-social gap-5">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-google"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <hr class="footer-hr mt-5" />
+      </div>
+      <div
+        class="container footer pt-5 row d-flex justify-content-center align-content-center mx-auto"
+      >
+        <div class="col-xl-3 col-lg-6 col-sm-12 py-2">
+          <p class="footer-tittle">Contact Us</p>
+          <div class="footer-info">
+            <div class="my-2">
+              <i class="fa-solid fa-location-dot"></i>
+              <a
+                class="ps-3 footer-a"
+                href="http://maps.google.com/?q=1200 Pennsylvania Ave SE, Washington, District of Columbia, 20003"
+                >200 Lincoln Ave, Sailnos, CA 93901</a
+              >
+            </div>
+
+            <div class="my-2">
+              <i class="fa-solid fa-phone"></i>
+              <a class="ps-3 footer-a" href="tel:023 32423 223"
+                >023 32423 223</a
+              >
+            </div>
+            <div class="my-2">
+              <i class="fa-solid fa-envelope"></i>
+              <a class="ps-3 footer-a" href="mailto:gymax@example.com"
+                >gymax@example.com</a
+              >
+            </div>
+            <div class="my-2">
+              <i class="fa-solid fa-clock"></i>
+              <a class="ps-3 footer-a">9:00 - 20:00 All day </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-sm-12 py-2">
+          <p class="footer-tittle">My Account</p>
+          <div class="footer-info">
+            <div class="">
+              <a
+                class="footer-a"
+                href="http://maps.google.com/?q=1200 Pennsylvania Ave SE, Washington, District of Columbia, 20003"
+                >My account</a
+              >
+            </div>
+
+            <div class="pt-3">
+              <a class="footer-a" href="tel:023 32423 223">Checkout</a>
+            </div>
+            <div class="pt-3">
+              <a class="footer-a" href="mailto:gymax@example.com">Register</a>
+            </div>
+            <div class="pt-3">
+              <a class="footer-a">Login </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-sm-12 py-2">
+          <p class="footer-tittle">Information</p>
+          <div class="footer-info">
+            <div class="">
+              <a
+                class="footer-a"
+                href="http://maps.google.com/?q=1200 Pennsylvania Ave SE, Washington, District of Columbia, 20003"
+                >About Us</a
+              >
+            </div>
+
+            <div class="pt-3">
+              <a class="footer-a" href="tel:023 32423 223">Contact us </a>
+            </div>
+            <div class="pt-3">
+              <a class="footer-a" href="mailto:gymax@example.com"
+                >Term of users</a
+              >
+            </div>
+            <div class="pt-3">
+              <a class="footer-a">Privacy Policy </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-sm-12 py-2">
+          <p class="footer-tittle">Quick link</p>
+          <div class="footer-info">
+            <div class="">
+              <a
+                class="footer-a"
+                href="http://maps.google.com/?q=1200 Pennsylvania Ave SE, Washington, District of Columbia, 20003"
+                >New users</a
+              >
+            </div>
+
+            <div class="pt-3">
+              <a class="footer-a" href="tel:023 32423 223">Help center</a>
+            </div>
+            <div class="pt-3">
+              <a class="footer-a" href="mailto:gymax@example.com"
+                >Report spam</a
+              >
+            </div>
+            <div class="pt-3">
+              <a class="footer-a">FAQs </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".slider123").slick({
+        dots: true,
+      });
+    });
+  </script>
+  <script>
+    if ($(window).width() <= 1024) {
+      $(function () {
+        console.log("hide");
+        $(".footer-info").addClass("collapse collapsing");
+        $(".footer-tittle").on("click", function ($event) {
+          const elem = $event.target;
+          const nextElem = elem.parentElement.querySelector(".footer-info");
+          $(nextElem).toggleClass("show");
+          $(nextElem).removeClass("collapsing");
+        });
+      });
+    } else {
+      $(".footer-info").removeClass("collapse collapsing");
+      $(".footer-tittle").off("click");
+    }
+    window.addEventListener("resize", () => {
+      if (window.innerWidth <= 1024) {
+        $(".footer-info").addClass("collapse collapsing");
+        $(".footer-tittle").on("click", function ($event) {
+          const elem = $event.target;
+          const nextElem = elem.parentElement.querySelector(".footer-info");
+          $(nextElem).toggleClass("show");
+          $(nextElem).removeClass("collapsing");
+        });
+      } else {
+        $(".footer-info").removeClass("collapse collapsing");
+        $(".footer-tittle").off("click");
+      }
+    });
+  </script>
+</html>
